@@ -1,0 +1,160 @@
+1)
+real=float(input("Informe um número em real: "))
+conversao = real/3.12
+print("valor em dólares: " , conversao)
+dolar=float(input("Informe um número em dólar: "))
+conversao2 = dolar*3.12
+print("valor em reais:" , conversao2)
+
+2)
+real=float(input("Informe um número em real: "))
+conversao = real/3.12
+print("valor em euros: " , conversao)
+euro=float(input("Informe um número em euros: "))
+conversao2 = euro*3.12
+print("valor em reais:" , conversao2)
+
+3)
+lc=float(input("informe a largura da cozinha: "))
+cc=float(input("informe o comprimento da cozinha: "))
+a=float(input("informe a altura do azulejo: "))
+la=float(input("informe a largura do azulejo: "))
+areadacozinha = lc*cc
+areadecadaazulejo = a*la
+quantidadedeazulejos = areadacozinha/areadecadaazulejo
+print("quantidade de azulejos: " , quantidadedeazulejos)
+
+4)
+ladoA = float(input("informe o valor do ladoA: "))
+ladoB = float(input("informe o valor do ladoB: "))
+perimetro = 2*ladoA + 2*ladoB
+area = ladoA*ladoB
+print("perimetro: ", perimetro , "área: ", area)
+
+5)
+massa = float(input("informe a massa em kg: "))
+altura = float(input("informe a altura em metros: "))
+imc= massa/altura**2
+print(" o IMC é igual á:" , imc)
+
+6)
+raio=float(input("Digite o valor do raio: "))
+pi=3.14
+v=4/3*pi*(raio**3)
+a=4*pi*(raio**2)
+print("O volume é igual a: ",v, "e a área da superfície é: ",a)
+
+7)
+p1=float(input("digite a nota da primeira da prova"))
+p2=float(input("digite a nota da segunda da prova"))
+ativ=float(input("digite a nota da atividade"))
+med=((4*p1)+(4*p2)+(2*ativ))/10
+print("media é =",med)
+
+8)
+t=float(input("Informe o tempo que foi gasto em segundos: "))
+s0=2
+v0=3
+a=10
+s=s0+(v0*t)+(0.5*a*(t**2))
+print("O espaço percorrido foi de: ",s,"m")
+
+9)
+# Lê o número de maçãs compradas e a quantidade de kg de bananas
+quantidade_macas = int(input("Digite o número de maçãs compradas: "))
+quantidade_bananas = float(input("Digite a quantidade de kg de bananas comprados: "))
+
+# Define os preços das maçãs e das bananas
+preco_maca = 1.30  # R$ 1,30 por maçã
+preco_banana_por_kg = 5.00  # R$ 5,00 por kg de bananas
+
+# Calcula o custo total da compra
+custo_macas = quantidade_macas * preco_maca
+custo_bananas = quantidade_bananas * preco_banana_por_kg
+custo_total = custo_macas + custo_bananas
+
+# Exibe o custo total da compra
+print(f"O custo total da compra é R$ {custo_total:.2f}")
+
+10)
+# Solicita a entrada das idades em anos, meses e dias
+anos = int(input("Digite a idade em anos: "))
+meses = int(input("Digite a idade em meses: "))
+dias = int(input("Digite a idade em dias: "))
+
+# Calcula a idade total em dias
+idade_em_dias = (anos * 365) + (meses * 30) + dias
+
+# Exibe a idade total em dias
+print(f"A idade total em dias é: {idade_em_dias} dias")
+
+
+11)
+# Leitura do custo de fábrica do carro
+custo_fabrica = float(input("Digite o custo de fábrica do carro: "))
+
+# Definição das porcentagens do distribuidor e dos impostos
+percentual_distribuidor = 0.28
+impostos = 0.45
+
+# Cálculo do custo final ao consumidor
+custo_distribuidor = custo_fabrica * percentual_distribuidor
+custo_impostos = custo_fabrica * impostos
+custo_consumidor = custo_fabrica + custo_distribuidor + custo_impostos
+
+# Exibição do resultado
+print(f"O custo final ao consumidor é: R$ {custo_consumidor:.2f}")
+
+12)
+# Lendo os valores de entrada
+qtde_carros_vendidos = int(input("Digite o número de carros vendidos: "))
+valor_total_vendas = float(input("Digite o valor total das vendas: "))
+salario_fixo = float(input("Digite o salário fixo: "))
+valor_comissao_por_carro = float(input("Digite o valor de comissão por carro vendido: "))
+
+# Calculando o salário final
+valSalFixo = salario_fixo
+valComissao = valor_comissao_por_carro * qtde_carros_vendidos
+valTotalVendas = valor_total_vendas
+valSalFinal = valSalFixo + valComissao + (0.05 * valTotalVendas)
+
+# Imprimindo o salário final do vendedor
+print("O salário final do vendedor é:", valSalFinal)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
